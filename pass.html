@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pass.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Your Password Below</h1>
+        <div class="password-display">Enter Password</div>
+        <form class="form" id="pass">
+            <label for="charNum">No Of Characters</label>
+            <div class="char-amt-container">
+                <input type="range" value="8" min="1" max="20" id="charAmtRange">
+                <input type="number" min="1" max="20" value="8" class="number-input" id="charNum">
+            </div>
+
+            <label for="UpperCase">Include Uppercase</label>
+            <input type="checkbox" id="upperCase">
+
+            <label for="Numbers">Include Numbers</label>
+            <input type="checkbox" id="numbers">
+
+            <label for="symbols">Include Symbols</label>
+            <input type="checkbox" id="symbols">
+
+            <button type="submit" class="btn">Generate Password</button>
+        </form>
+    </div>
+</body>
+<script src="pass.js"></script>
+</html>
