@@ -1,4 +1,4 @@
-#PassWord Generator App
+# PassWord Generator App
 
 This is project is a simple app that generates random secure passwords
 
